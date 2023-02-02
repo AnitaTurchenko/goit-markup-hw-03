@@ -1,0 +1,235 @@
+/* основной цвет #434455 */
+/* вторичный цвет #2E2F42 */
+/* colors of logo #4D5AE5 and #2E2F42 */
+/* color of contacts #434455 */
+/* white #FFFFFF */
+/* color of footer text #E7E9FC */
+/* color of background #F4F4FD */
+
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --hover-color: #404bbf;
+  --bc-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* Navigation */
+
+/* logo */
+
+.logo {
+  color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+}
+
+.logo .web {
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus,
+.logo:hover .web,
+.logo:focus .web {
+  color: var(--hover-color);
+}
+
+.navigation .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--hover-color);
+}
+
+.navigation .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav .auth-link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav .auth-link:hover,
+.auth-nav .auth-link:focus {
+  color: var(--hover-color);
+}
+
+.address {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* main */
+
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* banner */
+.first-section-title {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.first-section {
+  background-color: #434455;
+}
+
+.btn-order-service {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.btn-order-service:hover,
+.btn-order-service:focus {
+  background-color: var(--hover-color);
+}
+
+/* section benefit */
+.benefit-list-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.benefit-list-text {
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+/* section Our Team */
+
+.li-card {
+  background-color: #ffffff;
+}
+
+.section-our-team {
+  background-color: var(--bc-color);
+}
+
+.section-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.section-profession {
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* footer */
+
+.footer-text {
+  color: var(--footer-text-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+footer .logo .web {
+  color: var(--accent-color);
+}
+
+footer .logo {
+  color: var(--bc-color);
+}
+
+footer {
+  background-color: var(--title-text-color);
+}
+
+/* PORTFOLIO */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* filter buttons */
+.list .filter-button {
+  color: var(--accent-color);
+  font-family: inherit;
+  background-color: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: var(--hover-color);
+}
+
+.filter-list-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.filter-list-text {
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
