@@ -63,6 +63,7 @@ img {
 
 .link {
   text-decoration: none;
+  display: inline-block;
 }
 
 .address {
@@ -111,6 +112,7 @@ header .logo {
 .navigation.list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .all-nav {
@@ -130,10 +132,6 @@ header .logo {
 .header-link {
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.nav-list:not(:last-child) {
-  margin-right: 40px;
 }
 
 .navigation .link {
@@ -227,6 +225,7 @@ header .logo {
 
 .benefit-list {
   display: flex;
+  gap: 24px;
 }
 
 .benefit-list-title {
@@ -240,10 +239,10 @@ header .logo {
 .benefit-list-text {
   letter-spacing: 0.02em;
   line-height: 1.5;
-  width: calc((100%-72) / 4);
 }
-.benefit-item:not(:last-child) {
-  margin-right: 24px;
+
+.benefit-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-benefit {
